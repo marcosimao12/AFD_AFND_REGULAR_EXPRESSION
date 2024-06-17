@@ -3,6 +3,7 @@
 implementação de reconhecedores de linguagens regulares, tendo por base os algoritmos e estruturas
 de dados abordadas ao longo das aulas. Pretende-se que sejam desenvolvidas implementações em
 Python, conforme exemplificado nas aulas.
+
 **OBJETIVOS**
   Os objetivos do desenvolvimento deste trabalho são os seguintes:
     • demonstrar a relevância do uso de expressões regulares;
@@ -15,6 +16,7 @@ regulares
 autómato determinista, ou não determinista
     • conhecer o processo de conversão de um autómato não determinista num determinista,
 especificando funções que realizem a implementação.
+
 **ENUNCIADO**
     As expressões regulares permitem representar de uma forma compacta uma linguagem. O seu
 reconhecimento pode ser realizado recorrendo a um autómato finito. Neste primeiro trabalho prático
