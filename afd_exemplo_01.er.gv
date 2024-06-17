@@ -1,0 +1,9 @@
+digraph afd {
+    node [shape = doublecircle]; q2 q1;
+    node [shape = point]; qi;
+    node [shape = circle];
+    qi -> q0;
+    q0 -> q1 [label="a"];
+    q1 -> q2 [label="b"];
+    q2 -> q2 [label="b"];
+}

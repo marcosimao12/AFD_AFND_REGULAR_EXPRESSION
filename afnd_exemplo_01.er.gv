@@ -1,0 +1,18 @@
+digraph afnd {
+    node [shape = doublecircle]; q1;
+    node [shape = point]; qi;
+    node [shape = circle];
+    qi -> q0;
+    q2 -> q3 [label="a"];
+    q0 -> q2 [label=""];
+    q0 -> q4 [label=""];
+    q3 -> q1 [label=""];
+    q4 -> q5 [label="a"];
+    q6 -> q7 [label=""];
+    q6 -> q8 [label=""];
+    q8 -> q9 [label="b"];
+    q9 -> q8 [label=""];
+    q9 -> q7 [label=""];
+    q5 -> q6 [label=""];
+    q7 -> q1 [label=""];
+}
